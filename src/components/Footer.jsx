@@ -45,6 +45,13 @@ export default function Footer() {
         {/* Made with Love Section */}
         <Box sx={{ textAlign: "center", mb: 6 }}>
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 1, mb: 1 }}>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu8N6n5ERHKSkg5x_ytv6iERQfxflQ3sG_EQ&s"
+              alt="Bear Logo"
+              width={40}
+              height={40}
+              style={{ objectFit: "contain" }}
+            />
             <Typography
               variant="h6"
               sx={{
